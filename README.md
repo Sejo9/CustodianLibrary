@@ -3,7 +3,8 @@ A library of my personal custom views
 
 ## CircularImageView
 
-Contains all the functionality of the standard ImageView. To make the image circular use the app:circularSrc attribute
+Contains all the functionality of the standard ImageView
+To make the image circular use the ```app:circularSrc``` attribute
 
 ```
 <com.sejo.custodianlibrary.CircularImageView>
@@ -14,7 +15,8 @@ Contains all the functionality of the standard ImageView. To make the image circ
 ```
 
 ## Dotloader
-Spinning loader made up of dots. Able to change the color of the dots.
+Spinning loader made up of dots
+Able to change the color of the dots using the ```app:loaderColor``` attribute
 
 ```
 <com.sejo.custodianlibrary.DotLoader>
