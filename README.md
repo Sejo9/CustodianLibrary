@@ -25,3 +25,18 @@ Able to change the color of the dots using the ```app:loaderColor``` attribute
   app:loaderColor="@color/sea_blue"
 </com.sejo.custodianlibrary.DotLoader>
 ```
+
+## Usage 
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.Sejo9:CustodianLibrary:v1.0'
+	}
